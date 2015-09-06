@@ -15,10 +15,11 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         self.enumerateChildNodesWithName("*") {
             node,stop in
-            var imageName = self.nodeNameToImageNameMap[node.name!]
-            if (imageName != nil) {
-                if let sprite = node as? SKSpriteNode {
-                    sprite.texture = SKTexture(imageNamed: imageName!)
+            if let name = node.name {
+                if let imageName = self.nodeNameToImageNameMap[name] {
+                    if let sprite = node as? SKSpriteNode {
+                        sprite.texture = SKTexture(imageNamed: imageName)
+                    }
                 }
             }
         }
