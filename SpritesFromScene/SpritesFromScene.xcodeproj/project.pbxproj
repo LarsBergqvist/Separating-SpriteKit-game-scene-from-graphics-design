@@ -162,6 +162,8 @@
 		808B2CA01B97561D00FEE884 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Lars Bergqvist";
 				TargetAttributes = {
@@ -417,6 +419,7 @@
 				808B2CCD1B97561D00FEE884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		808B2CCE1B97561D00FEE884 /* Build configuration list for PBXNativeTarget "SpritesFromSceneTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				808B2CD01B97561D00FEE884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
